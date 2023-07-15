@@ -10,7 +10,7 @@ namespace CST250_Milestone_Project
 
 		static void Main(string[] args)
 		{
-			Board board = new Board(12);
+			Board board = new Board(5);
 			board.SetupLiveNeighbors(0);
 			board.CalculateLiveNeighbors();
 
